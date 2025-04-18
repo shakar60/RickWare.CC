@@ -251,6 +251,7 @@ function SmoothDrag:Enable()
     end
     
     -- Connect input events
+    local dragObject = self.Object
     self.Connections.inputBegan = dragObject.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
             self.Dragging = true

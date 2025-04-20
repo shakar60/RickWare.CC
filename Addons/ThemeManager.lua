@@ -5,8 +5,7 @@ local getassetfunc = getcustomasset or getsynasset
 local isfolder, isfile, listfiles = isfolder, isfile, listfiles
 
 if typeof(copyfunction) == "function" then
-    -- Fix is_____ functions for shitsploits, those functions should never error, only return a boolean.
-
+    
     local
         isfolder_copy,
         isfile_copy,

@@ -32,7 +32,7 @@ if typeof(copyfunction) == "function" then
 end
 
 local SaveManager = {} do
-    SaveManager.Folder = "RickWareSettings"
+    SaveManager.Folder = "RickWare"
     SaveManager.SubFolder = ""
     SaveManager.Ignore = {}
     SaveManager.Library = nil

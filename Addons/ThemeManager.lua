@@ -34,7 +34,7 @@ if typeof(copyfunction) == "function" then
 end
 
 local ThemeManager = {} do
-    ThemeManager.Folder = "RickWare"
+    ThemeManager.Folder = "RickWareSettings"
 
     ThemeManager.Library = nil
     ThemeManager.BuiltInThemes = {

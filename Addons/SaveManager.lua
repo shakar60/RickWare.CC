@@ -32,7 +32,7 @@ if typeof(copyfunction) == "function" then
 end
 
 local SaveManager = {} do
-    SaveManager.Folder = "RickWareSettings"
+    SaveManager.Folder = "RickWare"
     SaveManager.SubFolder = ""
     SaveManager.Ignore = {}
     SaveManager.Library = nil
@@ -119,8 +119,8 @@ local SaveManager = {} do
         if typeof(self.SubFolder) ~= "string" or self.SubFolder == "" then return false end
 
         if createFolder == true then
-            if not isfolder(self.Folder .. "/Settings/" .. self.SubFolder) then
-                makefolder(self.Folder .. "/Settings/" .. self.SubFolder)
+            if not isfolder(self.Folder .. "/settings/" .. self.SubFolder) then
+                makefolder(self.Folder .. "/settings/" .. self.SubFolder)
             end
         end
 
@@ -140,7 +140,7 @@ local SaveManager = {} do
         paths[#paths + 1] = self.Folder .. "/settings"
 
         if self:CheckSubFolder(false) then
-            local subFolder = self.Folder .. "/Settings/" .. self.SubFolder
+            local subFolder = self.Folder .. "/settings/" .. self.SubFolder
             parts = subFolder:split("/")
 
             for idx = 1, #parts do
@@ -193,9 +193,9 @@ local SaveManager = {} do
         end
         SaveManager:CheckFolderTree()
 
-        local fullPath = self.Folder .. "/Settings/" .. name .. ".json"
+        local fullPath = self.Folder .. "/settings/" .. name .. ".json"
         if SaveManager:CheckSubFolder(true) then
-            fullPath = self.Folder .. "/Settings/" .. self.SubFolder .. "/" .. name .. ".json"
+            fullPath = self.Folder .. "/settings/" .. self.SubFolder .. "/" .. name .. ".json"
         end
 
         local data = {
@@ -233,9 +233,9 @@ local SaveManager = {} do
         end
         SaveManager:CheckFolderTree()
 
-        local file = self.Folder .. "/Settings/" .. name .. ".json"
+        local file = self.Folder .. "/settings/" .. name .. ".json"
         if SaveManager:CheckSubFolder(true) then
-            file = self.Folder .. "/Settings/" .. self.SubFolder .. "/" .. name .. ".json"
+            file = self.Folder .. "/settings/" .. self.SubFolder .. "/" .. name .. ".json"
         end
 
         if not isfile(file) then return false, "invalid file" end
@@ -258,9 +258,9 @@ local SaveManager = {} do
             return false, "no config file is selected"
         end
 
-        local file = self.Folder .. "/Settings/" .. name .. ".json"
+        local file = self.Folder .. "/settings/" .. name .. ".json"
         if SaveManager:CheckSubFolder(true) then
-            file = self.Folder .. "/Settings/" .. self.SubFolder .. "/" .. name .. ".json"
+            file = self.Folder .. "/settings/" .. self.SubFolder .. "/" .. name .. ".json"
         end
 
         if not isfile(file) then return false, "invalid file" end
@@ -279,7 +279,7 @@ local SaveManager = {} do
             local out = {}
 
             if SaveManager:CheckSubFolder(true) then
-                list = listfiles(self.Folder .. "/Settings/" .. self.SubFolder)
+                list = listfiles(self.Folder .. "/settings/" .. self.SubFolder)
             else
                 list = listfiles(self.Folder .. "/settings")
             end
@@ -327,7 +327,7 @@ local SaveManager = {} do
 
         local autoLoadPath = self.Folder .. "/settings/autoload.txt"
         if SaveManager:CheckSubFolder(true) then
-            autoLoadPath = self.Folder .. "/Settings/" .. self.SubFolder .. "/autoload.txt"
+            autoLoadPath = self.Folder .. "/settings/" .. self.SubFolder .. "/autoload.txt"
         end
 
         if isfile(autoLoadPath) then
@@ -348,7 +348,7 @@ local SaveManager = {} do
 
         local autoLoadPath = self.Folder .. "/settings/autoload.txt"
         if SaveManager:CheckSubFolder(true) then
-            autoLoadPath = self.Folder .. "/Settings/" .. self.SubFolder .. "/autoload.txt"
+            autoLoadPath = self.Folder .. "/settings/" .. self.SubFolder .. "/autoload.txt"
         end
 
         if isfile(autoLoadPath) then
@@ -371,7 +371,7 @@ local SaveManager = {} do
 
         local autoLoadPath = self.Folder .. "/settings/autoload.txt"
         if SaveManager:CheckSubFolder(true) then
-            autoLoadPath = self.Folder .. "/Settings/" .. self.SubFolder .. "/autoload.txt"
+            autoLoadPath = self.Folder .. "/settings/" .. self.SubFolder .. "/autoload.txt"
         end
 
         local success = pcall(writefile, autoLoadPath, name)
@@ -385,7 +385,7 @@ local SaveManager = {} do
 
         local autoLoadPath = self.Folder .. "/settings/autoload.txt"
         if SaveManager:CheckSubFolder(true) then
-            autoLoadPath = self.Folder .. "/Settings/" .. self.SubFolder .. "/autoload.txt"
+            autoLoadPath = self.Folder .. "/settings/" .. self.SubFolder .. "/autoload.txt"
         end
 
         local success = pcall(delfile, autoLoadPath)

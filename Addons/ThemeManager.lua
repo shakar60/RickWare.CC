@@ -5,7 +5,7 @@ local getassetfunc = getcustomasset or getsynasset
 local isfolder, isfile, listfiles = isfolder, isfile, listfiles
 
 if typeof(copyfunction) == "function" then
-    
+
     local
         isfolder_copy,
         isfile_copy,
@@ -34,7 +34,7 @@ if typeof(copyfunction) == "function" then
 end
 
 local ThemeManager = {} do
-    ThemeManager.Folder = "RickWareSettings"
+    ThemeManager.Folder = "RickWare"
 
     ThemeManager.Library = nil
     ThemeManager.BuiltInThemes = {
@@ -140,7 +140,7 @@ local ThemeManager = {} do
 
     --// Get, Load, Save, Delete, Refresh \\--
     function ThemeManager:GetCustomTheme(file)
-        local path = self.Folder .. "/Themes/" .. file .. ".json"
+        local path = self.Folder .. "/themes/" .. file .. ".json"
         if not isfile(path) then
             return nil
         end
@@ -157,7 +157,7 @@ local ThemeManager = {} do
 
     function ThemeManager:LoadDefault()
         local theme = "Default"
-        local content = isfile(self.Folder .. "/Themes/default.txt") and readfile(self.Folder .. "/Themes/default.txt")
+        local content = isfile(self.Folder .. "/themes/default.txt") and readfile(self.Folder .. "/themes/default.txt")
 
         local isDefault = true
         if content then
@@ -179,7 +179,7 @@ local ThemeManager = {} do
     end
 
     function ThemeManager:SaveDefault(theme)
-        writefile(self.Folder .. "/Themes/default.txt", theme)
+        writefile(self.Folder .. "/themes/default.txt", theme)
     end
 
     function ThemeManager:SaveCustomTheme(file)
@@ -195,7 +195,7 @@ local ThemeManager = {} do
         end
         theme["FontFace"] = self.Library.Options["FontFace"].Value
 
-        writefile(self.Folder .. "/Themes/" .. file .. ".json", httpService:JSONEncode(theme))
+        writefile(self.Folder .. "/themes/" .. file .. ".json", httpService:JSONEncode(theme))
     end
 
     function ThemeManager:Delete(name)
@@ -203,7 +203,7 @@ local ThemeManager = {} do
             return false, "no config file is selected"
         end
 
-        local file = self.Folder .. "/Themes/" .. name .. ".json"
+        local file = self.Folder .. "/themes/" .. name .. ".json"
         if not isfile(file) then return false, "invalid file" end
 
         local success = pcall(delfile, file)
@@ -248,7 +248,7 @@ local ThemeManager = {} do
         groupbox:AddLabel("Font color"):AddColorPicker("FontColor", { Default = self.Library.Scheme.FontColor })
         groupbox:AddDropdown("FontFace", {
             Text = "Font Face",
-            Default = "Arcade",
+            Default = "Code",
             Values = {"Arcade", "Creepster", "BuilderSans", "Code", "Fantasy", "Gotham", "Jura", "Roboto", "RobotoMono", "SourceSans", "PermanentMarker", "Roboto", "Arimo", "Oswald"}
         })
 
@@ -320,7 +320,7 @@ local ThemeManager = {} do
             end
         end)
         groupbox:AddButton("Reset default", function()
-            local success = pcall(delfile, self.Folder .. "/Themes/default.txt")
+            local success = pcall(delfile, self.Folder .. "/themes/default.txt")
             if not success then 
                 return self.Library:Notify("Failed to reset default: delete file error")
             end

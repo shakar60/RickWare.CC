@@ -1,4 +1,4 @@
-* Camera Lock *
+* Camera Lock
 
 Enabled
 Smoothness Value
@@ -11,7 +11,7 @@ Airpart
 Horizontal Prediction
 Vertical Prediction
 
-* Target Aim *
+* Target Aim
 
 LookAt
 ViewAt
@@ -23,7 +23,7 @@ Random Part Speed
 Horizontal Prediction
 Vertical Prediction
 
-* Keybinds *
+* Keybinds
 
 Lock Keybind
 Auto Air Keybind
@@ -32,7 +32,7 @@ Auto Macro Keybind
 CFrame Keybind
 Auto Shoot Keybind
 
-* Checks *
+* Checks
 
 Team Check
 Wall Check
@@ -41,33 +41,33 @@ Vehicle Check
 KO Check
 ForceField Check
 
-* Offsets *
+* Offsets
 
 Jump Offset 
 Fall Offset
 
-* Auto Air *
+* Auto Air
 
 Enabled
 Auto Air Delay
 Auto Air Button
 
-* Auto Shoot *
+* Auto Shoot
 
 Enabled
 Auto Shoot Delay
 
-* Auto Reload *
+* Auto Reload
 
 Enabled
 Auto Reload Ammo Value
 
-* Rapid Fire (hood custom) *
+* Rapid Fire (hood custom)
 
 Enabled
 Rapid Fire Cooldown
 
-* Macro *
+* Macro
 Enabled
 Macro Enabled
 Auto Macro Enabled
@@ -75,24 +75,24 @@ Macro Button
 Auto Macro Button
 Macro Delay
 
-* CFrame *
+* CFrame
 Enabled
 CFrame Button
 CFrame Speed
 
-* Anti Lock *
+* Anti Lock
 
 Enabled
 Anti Network
 Anti Lock Type (Up,Down etc)
 
-* Shop (Voidfall Only) **
+* Shop (Voidfall Only)
 
 Auto Armors
 Auto Foods
 Auto Guns
 
-* Visuals *
+* Visuals
 
 Trail
 Highlighter
@@ -103,7 +103,7 @@ Self Cham
 Visual Checks
 Accessory Cham
 
-* Misc *
+* Misc
 
 Player Speed
 Player Jump Power
@@ -115,7 +115,7 @@ No Clip
 Player Info
 Game Info
 
-* UI Settings *
+* UI Settings
 
 Config System
 UI DPI

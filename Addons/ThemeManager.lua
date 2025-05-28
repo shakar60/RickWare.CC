@@ -248,11 +248,10 @@ local ThemeManager = {} do
         groupbox:AddLabel("Font color"):AddColorPicker("FontColor", { Default = self.Library.Scheme.FontColor })
         groupbox:AddDropdown("FontFace", {
             Text = "Font Face",
-            Default = "Arcade",
-            Values = {"Arcade", "Creepster", "BuilderSans", "Code", "Fantasy", "Gotham", "Jura", "Roboto", "RobotoMono", "SourceSans", "PermanentMarker", "Roboto", "Arimo", "Oswald"}
+            Default = "SourceSansBold",
+            Values = {"Arimo","Arcade","BuilderSans","Code""Creepster""Fantasy","Gotham","Jura","Oswald","PermanentMarker","Roboto","RobotoMono","SourceSans""SourceSansBold"}
         })
-
-        
+                    
         local ThemesArray = {}
         for Name, Theme in pairs(self.BuiltInThemes) do
             table.insert(ThemesArray, Name)

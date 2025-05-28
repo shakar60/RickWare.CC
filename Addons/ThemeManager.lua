@@ -249,7 +249,7 @@ local ThemeManager = {} do
         groupbox:AddDropdown("FontFace", {
             Text = "Font Face",
             Default = "SourceSansBold",
-            Values = {"Arimo","Arcade","BuilderSans","Code""Creepster","Fantasy","Gotham","Jura","Oswald","PermanentMarker","Roboto","RobotoMono","SourceSans""SourceSansBold"}
+            Values = {"Arimo","Arcade","BuilderSans","Code""Creepster","Fantasy","Gotham","Jura","Oswald","PermanentMarker","Roboto","RobotoMono","SourceSans","SourceSansBold"}
         })
                     
         local ThemesArray = {}

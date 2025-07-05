@@ -1,0 +1,3 @@
+getgenv().key = "put your key here"
+
+loadstring(game:HttpGet("https://api.getpolsec.com/scripts/s2vi3m5feugxxitrmqn7jccwq4iw3scsgxhkve4p2gaa4h644lvq"))()

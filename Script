@@ -1,3 +1,30 @@
-getgenv().key = "put your key here"
+print([[
 
-loadstring(game:HttpGet("https://api.getpolsec.com/scripts/s2vi3m5feugxxitrmqn7jccwq4iw3scsgxhkve4p2gaa4h644lvq"))()
+--// This script is FREE \\--
+
+--// https://discord.gg/3jtkr4kWKb \\--
+
+--// How to get key? (join discord) \\--
+
+1. Click "🔗 Free Key"
+
+Linkvertise Key: https://api.getpolsec.com/linkvertise/S2VI3M5FEUGXXITRMQN7JCCWQ4IW3SCSGXHKVE4P2GAA4H644LVQ
+
+Lootlabs Key: https://api.getpolsec.com/lootlabs/S2VI3M5FEUGXXITRMQN7JCCWQ4IW3SCSGXHKVE4P2GAA4H644LVQ
+
+2. Select Linkvertise or Lootlabs and complete the steps  
+
+3. Copy the generated key  
+
+4. Click "🔑 Redeem Key", enter your key, then click "Done"
+
+5. Click "📜 Script" and copy it (Click "Mobile View" on mobile then hold it and copy it)  
+
+6. Execute the script  
+
+7. If you get "Invalid HWID", click "⚙️ Reset HWID"
+
+8. If you bypass the key system you will automatically blacklisted for **24h**
+
+9. Check out https://discord.com/channels/1387504334551515217/1387523916221775912 to see supported executes and unsupported games
+]])

@@ -8,11 +8,10 @@ print([[
 
 1. Click "🔗 Free Key"
 
-Linkvertise Key: https://api.getpolsec.com/linkvertise/S2VI3M5FEUGXXITRMQN7JCCWQ4IW3SCSGXHKVE4P2GAA4H644LVQ
-
-Lootlabs Key: https://api.getpolsec.com/lootlabs/S2VI3M5FEUGXXITRMQN7JCCWQ4IW3SCSGXHKVE4P2GAA4H644LVQ
-
 2. Select Linkvertise or Lootlabs and complete the steps  
+
+Linkvertise Key: https://api.getpolsec.com/linkvertise/S2VI3M5FEUGXXITRMQN7JCCWQ4IW3SCSGXHKVE4P2GAA4H644LVQ
+Lootlabs Key: https://api.getpolsec.com/lootlabs/S2VI3M5FEUGXXITRMQN7JCCWQ4IW3SCSGXHKVE4P2GAA4H644LVQ
 
 3. Copy the generated key  
 
@@ -22,9 +21,14 @@ Lootlabs Key: https://api.getpolsec.com/lootlabs/S2VI3M5FEUGXXITRMQN7JCCWQ4IW3SC
 
 6. Execute the script  
 
-7. If you get "Invalid HWID", click "⚙️ Reset HWID"
+7. If you get "HWID Mismatch", click "⚙️ Reset HWID"
 
-8. If you bypass the key system you will automatically blacklisted for **24h**
+8. If you get "Invalid key", click "📜 Script" and get your right key
 
-9. Check out https://discord.com/channels/1387504334551515217/1387523916221775912 to see supported executes and unsupported games
-]])
+9. If you bypass the key system you will automatically blacklisted for 24h
+
+10. Check out Status channel to see supported executes and unsupported games
+
+11. If you remove the getgenv().key = "yourkey" part the script will not work
+
+]]

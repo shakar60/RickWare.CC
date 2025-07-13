@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua", true))()
+--[[loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua", true))()
 
 if game.PlaceId == 105788818579323 then loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Dan%20FFA.luau",true))() end
 
@@ -19,3 +19,4 @@ if game.PlaceId == 120182610838514 then
         end
     end)
 end
+]]

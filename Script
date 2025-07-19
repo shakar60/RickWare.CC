@@ -13,7 +13,7 @@ print([[
 Linkvertise Key: https://api.getpolsec.com/linkvertise/S2VI3M5FEUGXXITRMQN7JCCWQ4IW3SCSGXHKVE4P2GAA4H644LVQ
 Lootlabs Key: https://api.getpolsec.com/lootlabs/S2VI3M5FEUGXXITRMQN7JCCWQ4IW3SCSGXHKVE4P2GAA4H644LVQ
 
-3. Copy the generated key  
+3. Copy the generated key
 
 4. Click "🔑 Redeem Key", enter your key, then click "Done"
 
@@ -31,7 +31,7 @@ Lootlabs Key: https://api.getpolsec.com/lootlabs/S2VI3M5FEUGXXITRMQN7JCCWQ4IW3SC
 
 11. If you remove the getgenv().key = "yourkey" part the script will not work
 
-]]
+]])
 
 setclipboard("discord.gg/RickWare")
 

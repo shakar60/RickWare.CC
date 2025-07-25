@@ -305,6 +305,8 @@ local SaveManager = {} do
                     end
                 end
             end
+            
+            table.sort(out)
 
             return out
         end)

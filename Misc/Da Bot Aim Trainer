@@ -1,14 +1,17 @@
+if not game.PlaceId == 109180248972375 then return end
+
 local l = game:GetService("Players").LocalPlayer
 
 local function r(c)
-    if not c then return end
-    local bd = c:FindFirstChild("BloxDog", true)
+    local bd = c and c:FindFirstChild("BloxDog", true)
     if bd then
-        bd:Destroy()
+        pcall(bd.Destroy, bd)
     end
 end
 
-r(l.Character)
+if l.Character then
+    r(l.Character)
+end
 
 l.CharacterAdded:Connect(function(c)
     task.wait(2)

@@ -1,48 +1,76 @@
-** Camera Lock **
-** Target Aim **
-** Bot Lock **
-** Silent Aim **
-** Toggle Lock Type **
-** Offsets **
-** Checks **
+__**Home Tab**__
 
-** CSync **
-** Bullet TP **
-** Tp Walk **
-** Rapid Fire **
-** Force Hit **
+**No Jump Cooldown**  
+**No Clip**  
+**Infinite Jump**  
+**Anti Void**  
+**Right Click Button**  
+**Walk Speed Changer**  
+**Walk Speed Button**  
+**Jump Power**  
+**Jump Power Button**  
+**Changer**  
+**Gravity Changer**  
+**FOV Changer**  
 
-** Trigget Bot **
-** Auto Shoot **
-** Anti Aim **
-** Resolver **
-** Spin **
-** Emote Bot **
-** Mouse Tracker **
-** Auto Air **
-** Skybox Changer **
-** Texture Changer **
-** Resolution Changer **
-** Macro **
-** Auto Macro **
-** Auto Reload **
-** Spin Bot **
+__**Main Tab**__
 
-** Trail **
-** Highlighter **
-** Hit Sound **
-** Hit Logs **
-** Hit Effect **
-** Skeleton **
-** Self Cham **
-** Accessory Cham **
-** Tool Cham **
-** Tracer **
-** ESP Checks **
+**Camera Lock**  
+**Target Aim**  
+**Bot Lock**  
+**Silent Aim**  
+**Toggle Lock Type**  
+**Auto Prediction**  
+**Offsets**  
+**Checks**  
 
-** Auto Armors **
-** Auto Foods **
-** Auto Guns **
-** Auto Stomp **
-** Staff Alert **
-** Infinite Ammo **
+__**Rage Tab**__
+
+**CSync**  
+**Bullet TP**  
+**Tp Walk**  
+**Tp On Death**  
+**Rapid Fire**  
+**Force Hit**  
+
+__**Misc Tab**__
+
+**Trigger Bot**  
+**Auto Shoot**  
+**Anti Aim**  
+**Resolver**  
+**Spin**  
+**Emote Bot**  
+**Auto Air**  
+**Skybox Changer**  
+**Texture Changer**  
+**Resolution Changer**  
+**Macro**  
+**Auto Macro**  
+**Auto Reload**  
+**Spin Bot**  
+
+__**Visual Tab**__
+
+**Trail**  
+**Highlighter**  
+**Hit Sound**  
+**Hit Logs**  
+**Hit Effect**  
+**Skeleton Esp**  
+**Self Cham**  
+**Name Esp**  
+**Accessory Cham**  
+**Tool Cham**  
+**Tracer**  
+**ESP Checks**  
+
+__**Special Tab**__
+
+**Auto Armors**  
+**Auto Foods**  
+**Auto Guns**  
+**Auto Stomp**  
+**Auto Stomp Farm**  
+**Staff Alert**  
+**Infinite Ammo**

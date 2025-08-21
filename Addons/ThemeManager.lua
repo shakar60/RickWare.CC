@@ -397,8 +397,8 @@ do
         groupbox:AddLabel("Font color"):AddColorPicker("FontColor", { Default = self.Library.Scheme.FontColor })
         groupbox:AddDropdown("FontFace", {
             Text = "Font Face",
-            Default = "Code",
-            Values = { "BuilderSans", "Code", "Fantasy", "Gotham", "Jura", "Roboto", "RobotoMono", "SourceSans" },
+            Default = "SourceSansBold",
+            Values = {"Arimo","Arcade","BuilderSans","Code","Creepster","Fantasy","Gotham","Jura","Oswald","PermanentMarker","Roboto","RobotoMono","SourceSans","SourceSansBold"},
         })
 
         local ThemesArray = {}

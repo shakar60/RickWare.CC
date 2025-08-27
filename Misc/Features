@@ -28,8 +28,9 @@ __** Rage Tab **__
 
 ** CSync **  
 ** CFrame **  
-** Tp On Death **    
-** Fly **  
+** Tp On Death **  
+** Velocity Fly **  
+** Invisible **
 
 __** Misc Tab **__  
 
@@ -44,8 +45,8 @@ __** Misc Tab **__
 ** Texture Changer **  
 ** Resolution Changer **  
 ** Force Reset **
-** Macro **  
 ** Auto Macro **  
+** Hitbox Expander **
 ** Auto Reload **  
 ** Spin Bot **  
 
@@ -56,6 +57,7 @@ __** Visual Tab **__
 ** Hit Sound **  
 ** Hit Logs **  
 ** Hit Effect **  
+** Damage Counter **
 ** Skeleton Esp **  
 ** Self Cham **  
 ** Name Esp **  

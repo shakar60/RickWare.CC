@@ -1,80 +1,99 @@
-__** Home Tab **__  
+__** HOME **__
 
-** No Jump Cooldown **  
-** No Clip **  
-** Infinite Jump **  
-** Anti Void **  
+** User Info **  
 ** Right Click Button **  
+** No Clip **  
+** No Jump Cooldown **  
+** Anti Void **  
+** Infinite Jump **  
+** Full Bright **  
+** No Recoil **  
+** Game Info **  
 ** Walk Speed Changer **  
-** Walk Speed Button **  
 ** Jump Power **  
-** Jump Power Button **  
 ** Changer **  
 ** Gravity Changer **  
-** FOV Changer **  
+** FOV Changer **
 
-__** Main Tab **__  
+__** MAIN **__
 
 ** Camera Lock **  
 ** Target Aim **  
 ** Bot Lock **  
 ** Silent Aim **  
-** Toggle Lock Type **
-** Auto Lock **
+** Toggle Lock Type **  
+** Auto Lock **  
 ** Auto Prediction **  
 ** Offsets **  
-** Checks **  
+** Checks **
 
-__** Rage Tab **__  
+__** RAGE **__
 
 ** CSync **  
+** Velocity Fly **  
 ** CFrame **  
 ** Tp On Death **  
-** Velocity Fly **  
+** Bullet TP **  
 ** Invisible **
 
-__** Misc Tab **__  
+__** PLAYER **__
+
+** Lock On **  
+** Unlock On **  
+** Teleport **  
+** Fling **  
+** View **  
+** Headsit **
+
+__** MISC TAB **__
 
 ** Trigger Bot **  
 ** Auto Shoot **  
 ** Anti Aim **  
 ** Resolver **  
+** Wallbang **  
 ** Spin **  
 ** Emote Bot **  
+** Range Changer **  
+** Headless Changer **  
+** Korblox Changer **  
 ** Auto Air **  
 ** Skybox Changer **  
 ** Texture Changer **  
 ** Resolution Changer **  
-** Force Reset **
-** Look Back **
+** Anti Fling **  
+** Force Reset **  
+** Look Back **  
 ** Auto Macro **  
-** Hitbox Expander **
+** Hitbox Expander **  
 ** Auto Reload **  
-** Spin Bot **  
+** Spin Bot **
 
-__** Visual Tab **__  
+__** VISUAL **__
 
 ** Trail **  
 ** Highlighter **  
-** Hit Sound **  
+** Hit Sounds **  
 ** Hit Logs **  
-** Hit Effect **  
-** Damage Counter **
+** Hit Effects **  
+** Damage Counter **  
 ** Skeleton Esp **  
 ** Self Cham **  
-** Name Esp **  
 ** Accessory Cham **  
 ** Tool Cham **  
+** Halo **  
+** Wing **  
+** Name ESP **  
 ** Tracer **  
-** ESP Checks **  
+** ESP Checks **
 
-__** Special Tab **__  
+__** SPECIAL **__
 
-** Auto Armors **  
-** Auto Foods **  
-** Auto Guns **  
+** Auto Buy Armors **  
+** Auto Buy Foods **  
+** Auto Buy Guns **  
 ** Auto Stomp **  
 ** Auto Stomp Farm **  
 ** Staff Alert **  
-** Infinite Ammo **
+** Infinite Ammo **  
 ** Rapid Fire **

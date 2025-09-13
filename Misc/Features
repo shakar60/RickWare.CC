@@ -34,6 +34,7 @@ __** RAGE **__
 ** CFrame **  
 ** Tp On Death **  
 ** Bullet TP **  
+** Auto Kill **
 ** Invisible **
 
 __** PLAYER **__
@@ -49,17 +50,18 @@ __** MISC TAB **__
 
 ** Trigger Bot **  
 ** Auto Shoot **  
-** Anti Aim **  
+** Anti Lock **  
 ** Resolver **  
 ** Wallbang **  
+** Auto Stomp **  
 ** Spin **  
 ** Emote Bot **  
 ** Range Changer **  
+** Item Buyer **
+** Auto Armor **
 ** Headless Changer **  
 ** Korblox Changer **  
 ** Auto Air **  
-** Skybox Changer **  
-** Texture Changer **  
 ** Resolution Changer **  
 ** Anti Fling **  
 ** Force Reset **  
@@ -72,6 +74,8 @@ __** MISC TAB **__
 __** VISUAL **__
 
 ** Trail **  
+** Skybox Changer **  
+** Texture Changer **  
 ** Highlighter **  
 ** Hit Sounds **  
 ** Hit Logs **  
@@ -79,6 +83,7 @@ __** VISUAL **__
 ** Damage Counter **  
 ** Skeleton Esp **  
 ** Self Cham **  
+** Skin Changer **
 ** Accessory Cham **  
 ** Tool Cham **  
 ** Halo **  
@@ -92,8 +97,8 @@ __** SPECIAL **__
 ** Auto Buy Armors **  
 ** Auto Buy Guns **  
 ** Auto Buy Foods **  
-** Auto Stomp **  
-** Auto Stomp Farm **  
 ** Staff Alert **  
 ** Infinite Ammo **  
 ** Rapid Fire **
+** Cash Aura **
+** Auto Block **

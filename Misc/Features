@@ -4,10 +4,11 @@ __** HOME **__
 ** Right Click **  
 ** No Clip **  
 ** No Jump Cooldown **  
+** No Recoil **  
 ** Anti Void **  
+** Anti Seat **
 ** Infinite Jump **  
 ** Full Bright **  
-** No Recoil **  
 ** Game Info **  
 ** Walk Speed Changer **  
 ** Jump Power **  
@@ -89,6 +90,8 @@ __** VISUAL **__
 ** Halo **  
 ** Wing **  
 ** Name ESP **  
+** Distance ESP **
+** Health ESP **
 ** Tracer **  
 ** ESP Checks **
 
@@ -102,3 +105,5 @@ __** SPECIAL **__
 ** Rapid Fire **
 ** Cash Aura **
 ** Auto Block **
+** Force Hit **
+** Spread Modifier **

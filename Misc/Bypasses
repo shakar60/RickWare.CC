@@ -1,56 +1,12 @@
-local HttpService = game:GetService("HttpService")
-
-local folder_url = "https://api.github.com/repos/TheRealXORA/Roblox/contents/Scripts%20/Anti-Cheats%20Bypassers%20"
-
-local function run_bypassers()
-    local success, response = pcall(function()
-        return game:HttpGet(folder_url)
-    end)
-
-    if not success then return end
-
-    local data = HttpService:JSONDecode(response)
-
-    for i, file in pairs(data) do
-        if file.download_url then
-            task.spawn(function()
-                local script_data = game:HttpGet(file.download_url)
-                local load_func = loadstring(script_data)
-                
-                if load_func then
-                    load_func()
-                end
-            end)
-        end
-    end
-end
-
-run_bypassers()
-local HttpService = game:GetService("HttpService")
-
-local folder_url = "https://api.github.com/repos/TheRealXORA/Roblox/contents/Scripts%20/Anti-Cheats%20Bypassers%20"
-
-local function run_bypassers()
-    local success, response = pcall(function()
-        return game:HttpGet(folder_url)
-    end)
-
-    if not success then return end
-
-    local data = HttpService:JSONDecode(response)
-
-    for i, file in pairs(data) do
-        if file.download_url then
-            task.spawn(function()
-                local script_data = game:HttpGet(file.download_url)
-                local load_func = loadstring(script_data)
-                
-                if load_func then
-                    load_func()
-                end
-            end)
-        end
-    end
-end
-
-run_bypassers()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Adonis.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/BloxStrike.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Client-Sided%20Anti-Kick"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Da%20Battles.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Da%20Bot%20Aim%20Trainer.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Da%20Track%20FFA.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Dan%20FFA.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Das%20Hood.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Kat%20X.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Sniper%20Duels.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Timebomb%20Duels.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Zee%20Hood.luau"))()

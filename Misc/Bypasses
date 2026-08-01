@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/scripts/refs/heads/main/Adonis%20Bypass.luau", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/scripts/refs/heads/main/Adonis.luau", true))()
 --[[loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Adonis.luau"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/BloxStrike.luau"))()
 del loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Client-Sided%20Anti-Kick"))()

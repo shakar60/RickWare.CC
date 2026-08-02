@@ -1,20 +1,2 @@
---[[loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/scripts/refs/heads/main/Adonis.luau", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/scripts/refs/heads/main/Adonis.luau", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/scripts/refs/heads/main/Bypass%20Dan%20FFA.luau", true))()
-]]]
-task.spawn(function()
-    local success, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/scripts/refs/heads/main/Adonis.luau", true))()
-    end)
-    if not success then
-        warn("Failed to load Adonis:", err)
-    end
-end)
-
-task.spawn(function()
-    local success, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/scripts/refs/heads/main/Bypass%20Dan%20FFA.luau", true))()
-    end)
-    if not success then
-        warn("Failed to load Bypass:", err)
-    end
-end)
